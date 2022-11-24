@@ -5,9 +5,10 @@
 - Semantic Search vs Question Answering
 
 ## Retrieval
-- Sparse and Dense retrieval
-- Sparse retrieval: TF-IDF, BM25
-- Dense retrieval
+- [Sparse retrieval: Bag-of-words, TF-IDF](pills/sparse-bow-tfidf.md)
+- [Sparse retrieval: BM25](pills/sparse-bm25.md)
+- From sparse to dense retrieval: language models
+- Dense Passage Retrieval
 - Embedding retrieval: Sentence Transformers
 - Retrieve and Re-Rank (Cross-Encoders vs Bi-Encoders)
 - Retrieval Evaluation
