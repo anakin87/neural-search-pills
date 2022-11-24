@@ -4,7 +4,9 @@ When it comes to search engines, **retrieval** is the process of returning the m
 
 Classical lexical search engines are based on **sparse representations for retrieval**.
 
-Let's start with the simplest representation: **Bag-of-words**. 👜
+
+## Bag-of-words 👜
+It is the simplest sparse representation:
 - Build a vocabulary composed of all the words in your corpus (=collection of documents)
 - For each document, construct a vector with the same length as the vocabulary. Put a 1 for each word that appears in the document and a 0 for each missing word.
 - Done!
@@ -13,7 +15,8 @@ These types of representations are called sparse because in everyday application
 
 BOW does not take word order into account. Other than that, it is not very expressive because every word has only two possible weights (0 or 1). So it is practically not used to create search engines.
 
-An evolution of BOW is called Term Frequency - Inverse Document Frequency (**TF-IDF**).
+## TF-IDF
+An evolution of BOW is called Term Frequency - Inverse Document Frequency (TF-IDF).
 - the weight of a word increases the more the word is repeated in the document
 - the weight is lower the more the term is present within the corpus (think of articles, conjunctions...)
 

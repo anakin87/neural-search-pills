@@ -11,7 +11,7 @@ For each document, construct a vector with the same length as the vocabulary.
 
 **BM25** was developed in the 70s and 80s as an evolution of the TF-IDF.
 This algorithm represents the de facto standard for sparse retrieval.
-It is commonly and effectively used in real-world search engines. One of its most common implementations is found in Apache Lucene, the engine that powers Elasticsearch, OpenSearch and Apache Solr!
+It is commonly and effectively used in real-world search engines. One of its most common implementations is found in Apache Lucene, the engine 🚂 that powers Elasticsearch, OpenSearch and Apache Solr!
 
 
  ![BM25 Formula](../images/bm25_equation.png) 
@@ -28,7 +28,7 @@ In BM25, the term saturation is determined by the parameter `k1`.
 ## Document length normalization
 
 A certain document contains the word "cake" once and is one page long. Another document contains the same word once but is 100 pages long.
-Which document is more relevant to the query "cake"?
+Which document is more relevant to the query "cake"? 🍰
 
 BM25 takes document length into account, penalizing longer documents through the parameter `b`.
 
