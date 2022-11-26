@@ -7,7 +7,7 @@
 ## Retrieval
 - [Sparse retrieval: Bag-of-words, TF-IDF](pills/sparse-bow-tfidf.md)
 - [Sparse retrieval: BM25](pills/sparse-bm25.md)
-- From sparse to dense retrieval: language models
+- [From sparse representations to Language Models](pills/from-sparse-to-lm.md)
 - Dense Passage Retrieval
 - Embedding retrieval: Sentence Transformers
 - Retrieve and Re-Rank (Cross-Encoders vs Bi-Encoders)
