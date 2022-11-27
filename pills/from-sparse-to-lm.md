@@ -1,8 +1,10 @@
 # From sparse representations to Language Models
 
+![towards more expressive textual representations](../images/from-sparse-to-lm.png)
+
 ## Sparse representations
 
-In the retrieval context, we've already introduced sparse text representations ([BOW, TF-IDF](sparse-bow-tfidf.md), [BM25](sparse-bm25.md)): they are simple and fast to use. On the other hand, they don't capture semantic similarity and don't take word order into account.
+In the retrieval context, we've already introduced sparse textual representations ([BOW, TF-IDF](sparse-bow-tfidf.md), [BM25](sparse-bm25.md)): they are simple and fast to use. On the other hand, they don't capture semantic similarity and don't take word order into account.
 
 To understand the rise of more expressive textual representations, we need to step back and focus on word representations. Then we can transfer the same reasoning to document representations.
 
