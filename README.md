@@ -9,7 +9,7 @@
 - [Sparse retrieval: BM25](pills/sparse-bm25.md)
 - [From sparse representations to Language Models](pills/from-sparse-to-lm.md)
 - [Dense Passage Retrieval](pills/dpr.md)
-- Embedding retrieval: Sentence Transformers
+- [Sentence Transformers for Dense Retrieval](pills/sbert.md)
 - Retrieve and Re-Rank (Cross-Encoders vs Bi-Encoders)
 - Retrieval Evaluation
 
