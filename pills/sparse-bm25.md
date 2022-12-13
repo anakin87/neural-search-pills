@@ -35,5 +35,5 @@ BM25 takes document length into account, penalizing longer documents through the
 ## Resources
 - [Understanding Term-Based Retrieval Methods in Information Retrieval](https://towardsdatascience.com/understanding-term-based-retrieval-methods-in-information-retrieval-2be5eb3dde9f): great blogpost by Lan Chu which intuitively explains BM25
 - [Practical BM25 - Part 2: The BM25 Algorithm and its Variables](https://www.elastic.co/blog/practical-bm25-part-2-the-bm25-algorithm-and-its-variables): Elastic post that elaborates on the BM25 formula
-- [Which BM25 Do You Mean? A Large-Scale Reproducibility Study of Scoring Variants](https://link.springer.com/chapter/10.1007/978-3-030-45442-5_4): recent paper comparing most popular BM25 variants
+- [Which BM25 Do You Mean? A Large-Scale Reproducibility Study of Scoring Variants](https://link.springer.com/chapter/10.1007/978-3-030-45442-5_4): recent paper comparing the most popular BM25 variants
 - [Rank-BM25](https://github.com/dorianbrown/rank_bm25): simple python implementation of BM25 algorithms by Dorian Brown
