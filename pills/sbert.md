@@ -8,7 +8,7 @@ In 2019, Nils Reimers and Iryna Gurevych published the paper "Sentence-BERT: Sen
 Let's find out what problem they solved and how this relates to Dense Retrieval.
 
 ## Limits of BERT for sentence embeddings
-- BERT can compare two sentences using a cross-encoder. Two sentences are passed to the transformer network that produces an output value between 0 and 1, indicating the similarity of the input sentence pair.
+- BERT can compare two sentences using a **cross-encoder**. Two sentences are passed to the transformer network that produces an output value between 0 and 1, indicating the similarity of the input sentence pair.
 - This approach takes a long time ⏳ and is unsuitable for practical situations. Finding which of Quora's over 40 million questions is the most similar to a new question would take over 50 hours on a modern GPU.
 - Some common practices for extracting sentence-level embeddings from BERT are to average the BERT output layer or take the representation for the \[CLS\] token. These common approaches produce pretty poor sentence embeddings, often worse than averaging GloVe embeddings.
 
@@ -33,7 +33,7 @@ The paper is quite complex, but let's try to bring home the most important conce
 
 Currently, SentenceTransformers library is very popular and up to date.
 It offers several pre-trained models that have been fine-tuned for semantic search and ranking tasks, using for example the large MS MARCO corpus.
-I don't know of explicit comparisons between DPR and SBERT for retrieval, but it is widely believed that the latter is more performing, as well as being more widespread and more practical because it is based on a single model instead of two.
+I don't know of explicit comparisons between DPR and SBERT for retrieval, but it is widely believed that the latter performs better, as well as being more widespread and more practical because it is based on a single model instead of two.
 
 
 ## Resources

@@ -10,7 +10,7 @@
 - [From sparse representations to Language Models](pills/from-sparse-to-lm.md)
 - [Dense Passage Retrieval](pills/dpr.md)
 - [Sentence Transformers for Dense Retrieval](pills/sbert.md)
-- Retrieve and Re-Rank (Cross-Encoders vs Bi-Encoders)
+- [Retrieve and Re-Rank](pills/retrieve-re-rank.md)
 - Retrieval Evaluation
 
 ## Question Answering
