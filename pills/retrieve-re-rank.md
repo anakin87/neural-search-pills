@@ -2,7 +2,8 @@
 
 ## Common retrieval setup
 
-At retrieval time, we want to be fast!
+At retrieval time, we want to be fast! 🏃
+
 We possibly want to compare the user's query against a large collection of documents (millions and even more) in a very short time.
 So we choose efficient and rapid techniques, both for sparse retrieval (BM25) and dense retrieval, and avoid large inference efforts at query time.
 
@@ -16,9 +17,10 @@ We then quickly search for the document vectors closest to the query vector.
 
 Once we have some possibly relevant documents, we can use a Cross-Encoder to refine the ranking of these documents.
 
-The query and each document are passed to the Cross-Encoder transformer network which produces an output value between 0 and 1, indicating the similarity of the input sentence pair.
+The query and each document are passed to the Cross-Encoder transformer network which produces an output value between 0 and 1, indicating the similarity of the input pair.
 
-By performing attention across the query and the document, we get better quality of ranking. Because Cross-Encoder inference is slow, at query time we can re-rank only a limited number of documents.
+By performing attention across the query and the document, we get a better indication of the similarity, so the quality of the ranking can be improved.
+Because Cross-Encoder inference is slow 🐌, at query time we can re-rank only a limited number of documents.
 
 A Cross-Encoder Re-Ranker can also be combined with a BM25 sparse retriever!
 
@@ -29,7 +31,7 @@ A Cross-Encoder Re-Ranker can also be combined with a BM25 sparse retriever!
 - when the user enters a query, it is represented using a (sparse or dense) retriever
 - the K nearest documents are retrieved
 - the retrieved candidate documents are passed to the Cross-Encoder Re-Ranker together with the query
-- we get the ranked documents!
+- we get an improved ranking! 🥇🥈🥉
 
 
 ## Resources
