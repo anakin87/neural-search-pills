@@ -11,7 +11,7 @@
 - [Dense Passage Retrieval](pills/dpr.md)
 - [Sentence Transformers for Dense Retrieval](pills/sbert.md)
 - [Retrieve and Re-Rank](pills/retrieve-re-rank.md)
-- Retrieval Evaluation
+- [Retrieval Evaluation](pills/retrieval-evaluation.md)
 
 ## Question Answering
 - Machine reading at scale (Retriever + Reader)
