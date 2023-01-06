@@ -21,7 +21,9 @@ The paper is quite complex, but let's try to bring home the most important conce
 - During fine-tuning, the weights are updated so that the produced sentence embeddings are semantically meaningful and can be compared with cosine-similarity.
 - The most prominent fine-tuning was performed on SNLI+MNLI (Natural Language Inference datasets) with a 3-way softmax-classifier objective function.
 
-![SBERT architecture](../images/sbert-architecture.png) (Image from the original paper)
+![SBERT architecture](../images/sbert-architecture.png)
+
+*(Image from the original paper)*
 
 - **Results**:
   - on various common benchmarks, SBERT achieves a significant improvement over state-of-the-art sentence embeddings methods.

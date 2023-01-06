@@ -7,7 +7,9 @@ But how can we objectively evaluate retrieval? Let's see some evaluation measure
 
 *In this pill, I just want to list the most common retrieval metrics. You can find in-depth explanations in the suggested resources.*
 
-![Retrieval evaluation measures](https://d33wubrfki0l68.cloudfront.net/74baa4032f93d8444e0b52e3aacbb1e5278c1f90/16797/images/offline-evaluation-1.png) (Image by Pinecone, Laura Carnevali and James Briggs)
+![Retrieval evaluation measures](https://d33wubrfki0l68.cloudfront.net/74baa4032f93d8444e0b52e3aacbb1e5278c1f90/16797/images/offline-evaluation-1.png)
+
+*(Image by Pinecone, Laura Carnevali and James Briggs)*
 
 ## Order-unaware metrics
 
