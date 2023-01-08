@@ -35,7 +35,8 @@ The paper is quite complex, but let's try to bring home the most important conce
 
 Currently, SentenceTransformers library is very popular and up to date.
 It offers several pre-trained models that have been fine-tuned for semantic search and ranking tasks, using for example the large MS MARCO corpus.
-I don't know of explicit comparisons between DPR and SBERT for retrieval, but it is widely believed that the latter performs better, as well as being more widespread and more practical because it is based on a single model instead of two.
+
+Most of the models available in Sentence Transformers show retrieval performance superior to that of DPR.
 
 
 ## Resources

@@ -2,7 +2,7 @@
 
 In 2020 some researchers from Facebook AI Research published a groundbreaking paper: "Dense Passage Retrieval for Open-Domain Question Answering".
 
-The idea of using dense representation to search texts was not new, but DPR outperformed [BM25](sparse-bm25.md) (best sparse retriever) by 9%-19% in terms of top-20 passage retrieval accuracy!
+The idea of using dense representation to search texts was not new, but DPR outperformed [BM25](sparse-bm25.md) (best sparse retriever) by 9%-19% in terms of (in-domain) top-20 passage retrieval accuracy!
 
 It was time to adopt dense retrieval in real applications...
 
