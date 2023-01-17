@@ -2,7 +2,7 @@
 
 ## Foundational concepts
 - [What is Neural Search?](pills/neural-search.md)
-- Semantic Search vs Question Answering
+- [What is Question Answering](pills/question-answering.md)
 
 ## Retrieval
 - [Sparse retrieval: Bag-of-words, TF-IDF](pills/sparse-bow-tfidf.md)
