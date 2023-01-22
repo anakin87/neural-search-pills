@@ -25,7 +25,7 @@ Because Cross-Encoder inference is slow 🐌, at query time we can re-rank only 
 A Cross-Encoder Re-Ranker can also be combined with a BM25 sparse retriever!
 
 ## Retrieve and Re-Rank pipeline
-![Retrieve and Re-Rank pipeline](https://weaviate.io/img/blog/cross-encoders/weaviate-pipeline-long.png) 
+![Retrieve and Re-Rank pipeline](https://weaviate.io/assets/images/hero-8aa6c59a0aab89952c695cd2128d2517.png) 
 
 *(Image by Weaviate and Laura Ham)*
 
