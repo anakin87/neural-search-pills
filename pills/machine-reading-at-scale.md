@@ -8,7 +8,7 @@ In open-domain open-book extractive QA 📖, the relevant information is retriev
 ## Machine Reading at scale
 In 2017, Danqi Chen et al. published the seminal paper "Reading Wikipedia to Answer Open-Domain Questions", introducing the idea of Machine Reading at scale.
 
-![Machine Reading at scale](https://ar5iv.labs.arxiv.org/html/1704.00051/assets/x1.png)
+![Machine Reading at scale](../images/machine-reading-at-scale.png)
 
 - the only source of knowledge is made up of unstructured text articles taken from Wikipedia.
 - first, they use a Document Retriever 🔎 module for finding the 5 most relevant articles for the user question.
