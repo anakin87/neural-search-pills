@@ -14,7 +14,7 @@
 - [Retrieval Evaluation](pills/retrieval-evaluation.md)
 
 ## Question Answering
-- Machine reading at scale (Retriever + Reader)
+- [Combining document retrieval and machine comprehension for Question Answering](pills/machine-reading-at-scale.md)
 - Transformer Reader Models
 - Question Answering Evaluation
 - Generative Question Answering: RAG, LFQA
