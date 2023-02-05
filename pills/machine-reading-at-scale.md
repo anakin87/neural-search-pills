@@ -9,6 +9,7 @@ In open-domain open-book extractive QA 📖, the relevant information is retriev
 In 2017, Danqi Chen et al. published the seminal paper "Reading Wikipedia to Answer Open-Domain Questions", introducing the idea of Machine Reading at scale.
 
 ![Machine Reading at scale](../images/machine-reading-at-scale.png)
+*(Image from the original paper)*
 
 - the only source of knowledge is made up of unstructured text articles taken from Wikipedia.
 - first, they use a Document Retriever 🔎 module for finding the 5 most relevant articles for the user question.
@@ -38,7 +39,7 @@ You can run it in just a few lines of code!
 The Retriever + Reader pipeline often got me thinking…
 - (Large) Language Models 🧠 have strong text comprehension/generation skills 
 - Their knowledge is generic and is not easily updated over time
-- When building NLP applications, we can combine LM with Retrieval systems to provide new/specific knowledge!
+- When building NLP applications, we can combine LM with 🔎 Retrieval systems to provide new/specific knowledge!
 
 
 ## Resources

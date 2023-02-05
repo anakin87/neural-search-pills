@@ -15,8 +15,8 @@
 
 ## Question Answering
 - [Combining document retrieval and machine comprehension for Question Answering](pills/machine-reading-at-scale.md)
-- Transformer Reader Models
-- Question Answering Evaluation
+- [Machine Reading Models (= Readers)](pills/reader.md)
+- Extractive Question Answering Evaluation
 - Generative Question Answering: RAG, LFQA
 
 ## Neural Search Ecosystem
