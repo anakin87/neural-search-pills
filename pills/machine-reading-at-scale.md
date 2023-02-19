@@ -29,7 +29,7 @@ However, nowadays the original components are usually replaced with better perfo
 - usually, the reader is a Transformer model, fine-tuned on question answering datasets.
 
 The reader performs a deep and complex analysis of textual passages, to extract the answers.
-So it can be slow and you can't run it on the whole document collection..
+So it can be slow and you can't run it on the whole document collection.
 The retriever acts as a filter, and provides the reader with only the most relevant documents, making the entire system usable and performing.
 
 The deepset Haystack framework shows a great example of a Retriever + Reader pipeline.
