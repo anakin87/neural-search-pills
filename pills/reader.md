@@ -29,4 +29,4 @@ We also usually adopt some strategies:
 ## Resources
 - [From Language Model to Haystack Reader](https://docs.haystack.deepset.ai/docs/reader#deeper-dive-from-language-model-to-haystack-reader): simple explanation from the deepset Haystack documentation
 - [Modern Question Answering Systems Explained](https://www.deepset.ai/blog/modern-question-answering-systems-explained): in-depth blogpost by Branden Chan, diving into Reader models.
-- [Chapter 7 of "Natural Language Processing with Transformers" by Lewis Tunstall, Leandro von Werra and Thomas Wolf](https://www.oreilly.com/library/view/natural-language-processing/9781098136789/)
+- [Chapter 7 of "Natural Language Processing with Transformers" by Lewis Tunstall, Leandro von Werra and Thomas Wolf - Free download](https://landing.deepset.ai/natural-language-processing-with-transformers-oreilly)
