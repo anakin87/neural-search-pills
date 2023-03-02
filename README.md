@@ -17,7 +17,7 @@
 - [Combining document retrieval and machine comprehension for Question Answering](pills/machine-reading-at-scale.md)
 - [Machine Reading Models (= Readers)](pills/reader.md)
 - [Extractive Question Answering Evaluation](pills/extractive-qa-evaluation.md)
-- Generative Question Answering: RAG, LFQA
+- Retrieval-based Answer generation
 
 ## Neural Search Ecosystem
 - Vector Search
