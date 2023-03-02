@@ -1,7 +1,7 @@
 # Combining document retrieval and machine comprehension for Question Answering
 
 A Question Answering system expects a question asked in a natural language and returns an answer.
-In open-domain open-book extractive QA 📖, the relevant information is retrieved from a knowledge repository and processed to extract an answer.
+In open-domain open-book **extractive** QA 📖, the relevant information is retrieved from a knowledge repository and processed to extract an answer.
 
 **How can we implement such a system?**
 
@@ -34,13 +34,6 @@ The retriever acts as a filter, and provides the reader with only the most relev
 
 The deepset Haystack framework shows a great example of a Retriever + Reader pipeline.
 You can run it in just a few lines of code!
-
-## A lesson to take home
-The Retriever + Reader pipeline often got me thinking…
-- (Large) Language Models 🧠 have strong text comprehension/generation skills 
-- Their knowledge is generic and is not easily updated over time
-- When building NLP applications, we can combine LM with 🔎 Retrieval systems to provide new/specific knowledge!
-
 
 ## Resources
 - [Reading Wikipedia to Answer Open-Domain Questions](https://arxiv.org/abs/1704.00051): Original paper
