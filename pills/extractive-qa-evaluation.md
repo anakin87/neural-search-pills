@@ -47,3 +47,4 @@ SAS=0.47
 ## Resources
 - [F1 score in NLP span-based Question Answering task](https://kierszbaumsamuel.medium.com/f1-score-in-nlp-span-based-qa-task-5b115a5e7d41): simple and deep blogpost by Samuel Kierszbaum
 - [Semantic Answer Similarity - The Smarter Metric to Score Question Answering Predictions](https://www.deepset.ai/blog/semantic-answer-similarity-to-evaluate-qa): deepset blog post introducing SAS
+- [The Stanford Question Answering Dataset](https://rajpurkar.github.io/SQuAD-explorer/)
