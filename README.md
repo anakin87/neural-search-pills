@@ -17,7 +17,7 @@
 - [Combining document retrieval and machine comprehension for Question Answering](pills/machine-reading-at-scale.md)
 - [Machine Reading Models (= Readers)](pills/reader.md)
 - [Extractive Question Answering Evaluation](pills/extractive-qa-evaluation.md)
-- Retrieval-based Answer Generation
+- [Retrieval-based Answer Generation](pills/retrieval-based-answer-generation.md)
 
 ## Neural Search Ecosystem
 - Vector Search
@@ -30,6 +30,10 @@
 - Question Generation
 - GPL: Generative Pseudo Labeling
 - CLIP: Contrastive Language-Image Pre-Training
+
+## Large Language Models
+- MRKL paper
+- Ecosystem
 
 ## Other
 - Natural Language Inference models and Zero-Shot Classification
