@@ -2,8 +2,11 @@
 
 Today, you can easily access a wide variety of free NLP models or simply call paid API services based on Large Language Models.
 But when it comes to building 🏗️ real-world NLP applications, the situation is more complex.
+
 ⚠️ you need these models to operate on your data/documents
+
 ⚠️ you need to store texts and embeddings in some kind of database
+
 ⚠️ you have to think from production perspective: building APIs, creating independent and scalable microservices...
 
 **In many cases, using a Neural Search/LLM framework can simplify your life as a developer.**
