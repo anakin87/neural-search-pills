@@ -23,17 +23,13 @@
 - Vector Search
 - Document Stores and Vector Databases
 - FAISS
-- Neural Search Frameworks
+- [Neural Search/LLM frameworks](pills/frameworks.md)
 
 ## Misc on Neural Search
 - Question Answering on Tables
 - Question Generation
 - GPL: Generative Pseudo Labeling
 - CLIP: Contrastive Language-Image Pre-Training
-
-## Large Language Models
-- MRKL paper
-- Ecosystem
 
 ## Other
 - Natural Language Inference models and Zero-Shot Classification
